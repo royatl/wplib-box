@@ -4,21 +4,19 @@
 /logs/*
 !/logs/readme.txt
 
-/www/underscores4wplib.dev/www/wp/
+/www/underscores/www/wp/
 
 # underscores
-/www/underscores4wplib.dev/www/*
-!/www/underscores4wplib.dev/www/index.php
-!/www/underscores4wplib.dev/www/wp-config.php
-!/www/underscores4wplib.dev/www/content/
+/www/underscores/www/*
+!/www/underscores/www/content/
 
 # underscores content
-/www/underscores4wplib.dev/www/content/*
+/www/underscores/www/content/*
 
 # underscores mu-plugins
-!/www/underscores4wplib.dev/www/content/mu-plugins/
-/www/underscores4wplib.dev/www/content/mu-plugins/*
-!/www/underscores4wplib.dev/www/content/mu-plugins/plugin-loader.php
+!/www/underscores/www/content/mu-plugins/
+/www/underscores/www/content/mu-plugins/*
+!/www/underscores/www/content/mu-plugins/plugin-loader.php
 
-/www/underscores4wplib.dev/www/content/plugins/*
-/www/underscores4wplib.dev/www/content/themes/*
+/www/underscores/www/content/plugins/*
+/www/underscores/www/content/themes/*
