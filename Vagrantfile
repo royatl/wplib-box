@@ -3,8 +3,7 @@
 
 Vagrant.configure(2) do |config|
 
-  #config.vm.box = "wplib/wplib"
-  config.vm.box = "package.box"
+  config.vm.box = "wplib/wplib"
   config.vm.network "private_network", ip: "192.168.33.10"
   config.vm.hostname = "wplib.box"
   config.hostsupdater.aliases = ["underscores.wplib.box", "novarnish.underscores.wplib.box"]
