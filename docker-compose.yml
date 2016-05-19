@@ -1,8 +1,8 @@
 ---
 version: '2'
 services:
-  wlpib:
-    image: wplib/wplib:v0.1
+  wplib:
+    image: wplib/wplib
     ports:
       - 80:80
       - 443:443
@@ -10,4 +10,4 @@ services:
       - 6379:6379
       - 9000:9000
     volumes:
-      - ./www:/usr/share/nginx/html
+      - ./www:/var/www
